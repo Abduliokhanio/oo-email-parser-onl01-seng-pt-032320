@@ -5,10 +5,10 @@
 
 class EmailAddressParser
   def initialize(email)
-    parse(email)
+    
   end
   
-  def parse(email)
+  def parse
     email2 = email.split(/, | /)
     #email2 = email.split(/\w+@(test.com)/)
     puts email2
