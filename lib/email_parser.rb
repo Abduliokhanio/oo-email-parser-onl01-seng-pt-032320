@@ -5,11 +5,11 @@
 
 class EmailAddressParser
   def initialize(email)
-    
+    @email = email
   end
   
   def parse
-    email2 = email.split(/, | /)
+    email2 = @email.split(/, | /)
     #email2 = email.split(/\w+@(test.com)/)
     puts email2
   end
