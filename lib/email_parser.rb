@@ -3,9 +3,10 @@
 # unique email addresses. The delimiters to support are commas (',')
 # or whitespace (' ').
 
-class 
-def spliter(email)
-  email2 = email.split(/, | /)
-  #email2 = email.split(/\w+@(test.com)/)
-  puts email2
+class EmailParser
+  def spliter(email)
+    email2 = email.split(/, | /)
+    #email2 = email.split(/\w+@(test.com)/)
+    puts email2
+  end
 end
