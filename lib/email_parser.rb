@@ -4,6 +4,9 @@
 # or whitespace (' ').
 
 class EmailParser
+  def initialize
+  end
+  
   def parse(email)
     email2 = email.split(/, | /)
     #email2 = email.split(/\w+@(test.com)/)
