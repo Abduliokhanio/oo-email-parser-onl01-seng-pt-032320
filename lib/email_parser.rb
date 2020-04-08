@@ -11,6 +11,6 @@ class EmailAddressParser
   def parse
     email2 = @email.split(/, | /)
     #email2 = email.split(/\w+@(test.com)/)
-    puts email2
+    email2
   end
 end
